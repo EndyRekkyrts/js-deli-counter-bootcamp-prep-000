@@ -22,5 +22,5 @@ const numbersAndNames = [];
   for (let i = 0, length = katzDeliLine.length; i < length; i++) {
     numbersAndNames.push(`${i + 1}, ${katzDeliLine[i]}`)
     }
-  return `The line is currently: ${numbersAndNames.join(',')}`
+  return `The line is currently: ${numbersAndNames.join('.')}`
 }
